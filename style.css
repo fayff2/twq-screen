@@ -185,10 +185,9 @@ left: 0;
 }
 
 .right-side{
-display:grid;
-border: 2px solid red;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(4, 1fr);
+display: inline-block;
+justify-content: center;
+align-items: center;
 position: relative;
 top: 0;
 bottom: 0;
@@ -220,7 +219,9 @@ top: 0;
 bottom: 0;
 right: 0;
 left: 0;
-grid-column: 1
+
+
+
 
 }
 .t-sq{
@@ -229,12 +230,6 @@ grid-column: 1
   width: 400px;
   height: 200px;
   margin-top:80%; 
-  position: relative;
-top: 0;
-bottom: 0;
-right: 0;
-left: 0;
-
 
 
 
@@ -244,11 +239,7 @@ left: 0;
   width: 150px;
   height: 100px;
 
-  position: relative;
-top: 0;
-bottom: 0;
-right: 0;
-left: 0;
+
 
 
  
